@@ -32,4 +32,7 @@ while True:
                 GPIO.output(RED_LED, True)
  
         time.sleep(MAIL_CHECK_FREQ)
-!
+!                           
+
+#FUNZIONA TUTTO TOGLIENDO IL PUNTO ESCLAMATIVO, DISATTIVANDO IL DOPPIO CONTROLLO DI GOOGLE PER L'ACCESSO ALLE MAIL E 
+ USANDO : sudo python ./raspi-gmail.py  #
